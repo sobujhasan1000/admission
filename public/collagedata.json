@@ -1,0 +1,146 @@
+[
+    {
+      "college_name": "University of Science and Technology",
+      "college_img": "https://ibb.co/RTLQtfg",
+      "graduation_img": "https://ibb.co/Wn8KB3J",
+      "admission_date": "2023-09-01",
+      "event": "Annual Science Fair",
+      "research_history": "The University of Science and Technology has a rich research history with notable contributions in fields like quantum physics, biotechnology, and environmental science.",
+      "sport": "Basketball, Soccer, Tennis",
+      "admission_process": "Prospective students need to submit an online application form and attend an admission interview.",
+      "sport_categories": ["Indoor Sports", "Outdoor Sports"],
+      "event_details": "The Annual Science Fair will feature student research projects and interactive demonstrations.",
+      "research_work": [
+        {
+          "title": "Quantum Entanglement and its Applications",
+          "description": "This research explores the practical applications of quantum entanglement in quantum computing and secure communication.",
+          "image": "https://example.com/research1.jpg"
+        },
+        {
+          "title": "Advancements in Gene Editing Techniques",
+          "description": "Researchers at the university have made significant breakthroughs in CRISPR-based gene editing techniques.",
+          "image": "https://example.com/research2.jpg"
+        }
+      ]
+    },
+    {
+      "college_name": "Art Institute of Creativity",
+      "college_img": "https://ibb.co/rySC4Xb",
+      "graduation_img": "https://ibb.co/ypQtTM4",
+      "admission_date": "2023-08-15",
+      "event": "Annual Art Exhibition",
+      "research_history": "The Art Institute of Creativity is renowned for nurturing talented artists and promoting creative expression across various mediums.",
+      "sport": "Painting, Sculpting",
+      "admission_process": "Aspiring artists are required to submit a portfolio showcasing their artwork and attend an admission interview.",
+      "sport_categories": ["Visual Arts"],
+      "event_details": "The Annual Art Exhibition will feature a wide range of artworks from students and established artists.",
+      "research_work": [
+        {
+          "title": "Exploring Abstract Expressionism",
+          "description": "This research delves into the history and impact of abstract expressionism in modern art.",
+          "image": "https://example.com/research3.jpg"
+        },
+        {
+          "title": "Cultural Influences on Contemporary Sculpture",
+          "description": "Researchers at the institute examine how cultural heritage influences the creation of contemporary sculptures.",
+          "image": "https://example.com/research4.jpg"
+        }
+      ]
+    },
+    {
+      "college_name": "Business School International",
+      "college_img": "https://ibb.co/7gPYtPg",
+      "graduation_img": "https://ibb.co/bmZV3wT",
+      "admission_date": "2023-10-01",
+      "event": "Global Business Summit",
+      "research_history": "The Business School International has a strong focus on research in finance, marketing, and entrepreneurship.",
+      "sport": "Football, Cricket, Table Tennis",
+      "admission_process": "Prospective business students need to submit academic transcripts, a statement of purpose, and attend a personal interview.",
+      "sport_categories": ["Sports Management", "Team Sports"],
+      "event_details": "The Global Business Summit will feature renowned speakers and panel discussions on international business trends.",
+      "research_work": [
+        {
+          "title": "Impact of Digital Marketing in the E-commerce Sector",
+          "description": "This research examines the influence of digital marketing strategies on e-commerce businesses.",
+          "image": "https://example.com/research5.jpg"
+        },
+        {
+          "title": "Entrepreneurial Ecosystems and Economic Growth",
+          "description": "Researchers analyze how supportive entrepreneurial ecosystems contribute to economic growth in different regions.",
+          "image": "https://example.com/research6.jpg"
+        }
+      ]
+    },
+    {
+      "college_name": "Medical College of Excellence",
+      "college_img": "https://ibb.co/JkcT4T2",
+      "graduation_img": "https://ibb.co/tcmqRR8",
+      "admission_date": "2023-07-20",
+      "event": "Medical Research Symposium",
+      "research_history": "The Medical College of Excellence has a long-standing history of groundbreaking research in medicine, healthcare, and public health.",
+      "sport": "Basketball, Volleyball, Athletics",
+      "admission_process": "Aspiring medical students must pass an entrance exam, submit academic records, and undergo a personal interview.",
+      "sport_categories": ["Sports Medicine", "Athletics"],
+      "event_details": "The Medical Research Symposium will feature presentations on the latest medical research and innovations.",
+      "research_work": [
+        {
+          "title": "Advancements in Cancer Immunotherapy",
+          "description": "This research explores novel immunotherapeutic approaches for treating various types of cancer.",
+          "image": "https://example.com/research7.jpg"
+        },
+        {
+          "title": "Impact of Telemedicine on Healthcare Accessibility",
+          "description": "Researchers investigate how telemedicine has improved healthcare access for remote and underserved communities.",
+          "image": "https://example.com/research8.jpg"
+        }
+      ]
+    },
+    {
+      "college_name": "Engineering Innovators Institute",
+      "college_img": "https://ibb.co/pd7JRkk",
+      "graduation_img": "https://ibb.co/vjC9kTY",
+      "admission_date": "2023-09-15",
+      "event": "Engineering Expo",
+      "research_history": "The Engineering Innovators Institute is known for its pioneering research in various engineering disciplines, including robotics, renewable energy, and materials science.",
+      "sport": "Cricket, Badminton, Chess",
+      "admission_process": "Prospective engineering students need to take a competitive entrance exam, submit academic records, and attend an admission interview.",
+      "sport_categories": ["Engineering Design Challenges", "Mind Sports"],
+      "event_details": "The Engineering Expo will showcase innovative projects and designs created by engineering students.",
+      "research_work": [
+        {
+          "title": "Development of Sustainable Building Materials",
+          "description": "This research focuses on the creation of eco-friendly and energy-efficient construction materials.",
+          "image": "https://example.com/research9.jpg"
+        },
+        {
+          "title": "Advancements in AI-powered Robotics",
+          "description": "Researchers at the institute are at the forefront of developing AI-powered robots for various applications.",
+          "image": "https://example.com/research10.jpg"
+        }
+      ]
+    },
+    {
+      "college_name": "Music Conservatory",
+      "college_img": "https://ibb.co/pwGKsSn",
+      "graduation_img": "https://ibb.co/qnk6rr6",
+      "admission_date": "2023-07-10",
+      "event": "Annual Music Festival",
+      "research_history": "The Music Conservatory is dedicated to advancing musical education and research in classical and contemporary music.",
+      "sport": "None",
+      "admission_process": "Prospective music students must audition and demonstrate their musical abilities to gain admission.",
+      "sport_categories": [],
+      "event_details": "The Annual Music Festival will feature performances by students and renowned musicians from around the world.",
+      "research_work": [
+        {
+          "title": "Reviving Traditional Folk Music",
+          "description": "This research aims to preserve and revitalize traditional folk music of different cultures.",
+          "image": "https://example.com/research11.jpg"
+        },
+        {
+          "title": "The Impact of Music on Mental Health",
+          "description": "Researchers explore how music therapy can positively influence mental health and well-being.",
+          "image": "https://example.com/research12.jpg"
+        }
+      ]
+    }
+  ]
