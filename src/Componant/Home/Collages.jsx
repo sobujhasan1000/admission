@@ -15,7 +15,7 @@ const Collages = () => {
   return (
     <div className="grid grid-cols-3 gap-2">
       {collageData.map((collageD)=>(
-         <div key={collageD._id} className="card bg-slate-400 shadow-xl ">
+         <div key={collageD._id} className="card bg-gradient-to-r from-stone-400 to-slate-400 shadow-xl ">
          <figure className="px-6 pt-6">
            <img
              src={collageD.college_img}
