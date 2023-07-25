@@ -1,6 +1,22 @@
+
 import { Link } from "react-router-dom";
+import { AuthContest } from "../Provider/Authprovider";
+import { useContext } from "react";
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContest);
+  const handelLogOut = () => {
+    logOut()
+      .then(() => { })
+      Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Your logOut successful',
+        showConfirmButton: false,
+        timer: 1500
+      })
+      .catch(error => console.log(error));
+  }
   return (
     <div>
       <div className="navbar bg-gradient-to-r from-red-200 to-slate-300 rounded-md">
@@ -27,17 +43,20 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+              <Link to='/'><a>Home</a></Link>
               </li>
               <li>
                 <Link to='/allcollage'><a>collages</a></Link>
               </li>
               <li>
-                <a>admission</a>
+              <Link to='/admission'><a>Admission</a></Link>
               </li>
               <li>
-                <a>My collage</a>
+              <Link to='/mycollage'><a>MY collage</a></Link>
               </li>
+              <li>
+            <Link to='/singin'><a>Singin</a></Link>
+            </li>
             </ul>
           </div>
           <a className="btn btn-ghost normal-case text-xl">admission pluse</a>
@@ -45,7 +64,7 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-            <Link to='/'><a>home</a></Link>
+            <Link to='/'><a>Home</a></Link>
             </li>
             <li>
             <Link to='/allcollage'><a>collages</a></Link>
@@ -56,13 +75,19 @@ const Navbar = () => {
             <li>
             <Link to='/mycollage'><a>MY collage</a></Link>
             </li>
+            {user?<></>
+            :
+            <>
+            <li><Link to='/login'>Login</Link></li>
+            </>}
           </ul>
         </div>
-        <div className="navbar-end">
+        {user?<>
+          <div className="navbar-end">
         <div className="dropdown dropdown-end">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+        <img src={user.photoURL} />
         </div>
       </label>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -73,10 +98,16 @@ const Navbar = () => {
           </a>
         </li>
         <li><a>Settings</a></li>
-        <li><a>Logout</a></li>
+        <li onClick={handelLogOut}><a>Logout</a></li>
       </ul>
     </div>
         </div>
+        </>
+
+        :
+
+        <>
+        </>}
       </div>
     </div>
   );

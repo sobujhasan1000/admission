@@ -8,7 +8,7 @@ const Collages = () => {
   const { data: collageData = [], refetch } = useQuery(
     ["collage"],
     async () => {
-      const res = await fetch("http://localhost:5000/collage");
+      const res = await fetch("https://admission-server-two.vercel.app/collage");
       return res.json();
     }
   );
@@ -31,7 +31,7 @@ const Collages = () => {
            <p className="text-xl text-teal-200">sport: {collageD.sport}</p>
            <div className="card-actions">
              <button className="btn">
-             <Link to="/collageDetails">View Details</Link>
+            <Link to={`/collage/${collageD._id}`}>View Details</Link>
              </button>
            </div>
          </div>

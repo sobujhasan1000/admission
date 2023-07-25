@@ -7,7 +7,7 @@ const Allcollage = () => {
     const { data: collageData = [], refetch } = useQuery(
         ["collage"],
         async () => {
-          const res = await fetch("http://localhost:5000/collage");
+          const res = await fetch("https://admission-server-two.vercel.app/collage");
           return res.json();
         }
       );
